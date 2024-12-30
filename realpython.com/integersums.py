@@ -7,9 +7,9 @@ def first(n):
         num = num + 1
     return sum
 
-if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        n = int(sys.argv[1])
-        print(f"The sum of the first {n} integers is: {first(n)}")
-    else:
-        print("Usage: python integersums.py <number>")
+# integersums.py
+def better(n):
+    sum = 0
+    for num in range(n + 1):
+        sum += num
+    return sum
