@@ -34,4 +34,5 @@ def es_palindromo(texto):
 
 # --- Pruebas ---
 print(es_palindromo("Amo la paloma"))   # True
+print(es_palindromo("Amo la paloma"))   # True
 print(es_palindromo("Hola Mundo"))      # False
